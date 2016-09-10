@@ -1,0 +1,128 @@
+
+
+body {
+
+    /*background-image: url("background-weather.png");*/
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+    }
+
+h3{
+  color: #2297b4;
+}
+
+.cloud1{
+    display: none;
+}
+
+.sunny{
+    display: none;
+}
+
+.drop{
+    position: relative;
+    top: 30px;
+    left: -190px;
+
+    animation: animateUp1 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animateUp1 {
+    0%   {left:-190px; top:30px;}
+    25%  {left:-200px; top:55px;}
+    50%  {left:-220px; top:75px;}
+    75%  {left:-240px; top:95px;}
+    100% {left:-260px; top:115px;}
+}
+
+.drop1{
+     position: relative;
+     top: 60px;
+     left: -390px;
+
+    animation: animateUp2 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+ }
+@keyframes animateUp2 {
+    0%   {left:-385px; top:60px;}
+    25%  {left:-405px; top:85px;}
+    50%  {left:-425px; top:105px;}
+    75%  {left:-445px; top:125px;}
+    100% {left:-465px; top:145px;}
+}
+
+.drop2{
+    position: relative;
+    top: 90px;
+    left: -590px;
+    animation: animateUp3 1s;
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes animateUp3 {
+    0%   {left:-590px; top:90px;}
+    25%  {left:-610px; top:115px;}
+    50%  {left:-630px; top:135px;}
+    75%  {left:-650px; top:155px;}
+    100% {left:-670px; top:175px;}
+}
+
+.date{
+
+    font-weight: bold;
+    position: relative;
+    top: 100px;
+    left: 130px
+}
+
+.division{
+    position: relative;
+    top: 190px;
+    color: rgba(85, 171, 143, 0.97);
+
+}
+
+.temp {
+    display: none;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.temp.current{
+    position: relative;
+    top: 100px;
+    left: 150px;
+
+}
+
+.weather-icon{
+    position: relative;
+    top: 60px;
+    left: 190px;
+
+    /*animation: animateUp 3s;*/
+    /*animation-fill-mode: forwards;*/
+    /*animation-iteration-count: infinite;*/
+    /*animation-timing-function: linear;*/
+}
+/*@keyframes animateUp {*/
+    /*0%{*/
+
+        /*transform: rotate(0deg);*/
+
+    /*}*/
+
+    /*100%{*/
+
+        /*transform: rotate(720deg);*/
+    /*}*/
+/*}*/
